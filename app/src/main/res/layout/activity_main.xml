@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+        <TextView
+            style="@style/Questions"
+            android:text="@string/Question1"
+            android:layout_marginBottom="6dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/india1"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitCenter"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_group1"
+            android:layout_marginBottom="3dp">
+            <RadioButton
+                style="@style/Options"
+                android:text="Mumbai"
+                android:id="@+id/q1o1"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Delhi"
+                android:id="@+id/q1o2"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Bhopal"
+                android:id="@+id/q1o3"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result1"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:layout_marginBottom="2dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginBottom="14dp"/>
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/Question2"
+            android:layout_marginBottom="6dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/america"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitCenter"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:id="@+id/radio_group2">
+            <RadioButton
+                style="@style/Options"
+                android:text="New York"
+                android:id="@+id/q2o1"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Texas"
+                android:id="@+id/q2o2"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Washington, D.C."
+                android:id="@+id/q2o3"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result2"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:layout_marginBottom="2dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginBottom="14dp"/>
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/Question3"
+            android:layout_marginBottom="6dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/aus"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerCrop"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_group3"
+            android:layout_marginBottom="3dp">
+            <RadioButton
+                style="@style/Options"
+                android:text="Sydney"
+                android:id="@+id/q3o1"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Canberra"
+                android:id="@+id/q3o2"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Melbourne"
+                android:id="@+id/q3o3"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result3"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:layout_marginBottom="2dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginBottom="14dp"/>
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/Question4"
+            android:layout_marginBottom="6dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/russia"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitCenter"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_group4"
+            android:layout_marginBottom="3dp">
+            <RadioButton
+                style="@style/Options"
+                android:text="Moscow"
+                android:id="@+id/q4o1"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Veliky Novgorod"
+                android:id="@+id/q4o2"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Novosibirsk"
+                android:id="@+id/q4o3"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result4"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:layout_marginBottom="2dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginBottom="14dp"/>
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/Question5"
+            android:layout_marginBottom="6dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/newzea"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitCenter"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_group5"
+            android:layout_marginBottom="3dp">
+            <RadioButton
+                style="@style/Options"
+                android:text="Auckland"
+                android:id="@+id/q5o1"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Wellington"
+                android:id="@+id/q5o2"/>
+
+            <RadioButton
+                style="@style/Options"
+                android:text="Napier"
+                android:id="@+id/q5o3"/>
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result5"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:layout_marginBottom="2dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/cardview_dark_background"
+            android:layout_marginBottom="6dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/score"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/button"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Again"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"
+            android:id="@+id/reset"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quizeee</string>
+    <string name="Question1">Q1. What is the capital of India?</string>
+    <string name="Question2">Q2. What is the capital of United State of America?</string>
+    <string name="Question3">Q3. What is the capital of Australia?</string>
+    <string name="Question4">Q4. What is the capital of Russia?</string>
+    <string name="Question5">Q5. What is the capital of New Zealand?</string>
+</resources>
